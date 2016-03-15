@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD11D2361C98827800A6E331 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD11D2351C98827800A6E331 /* AppDelegate.swift */; };
+		BD11D2381C98827800A6E331 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD11D2371C98827800A6E331 /* ViewController.swift */; };
+		BD11D23B1C98827800A6E331 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD11D2391C98827800A6E331 /* Main.storyboard */; };
+		BD11D23D1C98827800A6E331 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD11D23C1C98827800A6E331 /* Assets.xcassets */; };
+		BD11D2401C98827800A6E331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD11D23E1C98827800A6E331 /* LaunchScreen.storyboard */; };
+		BD11D24B1C98827800A6E331 /* Baseball_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD11D24A1C98827800A6E331 /* Baseball_AppTests.swift */; };
+		BD11D2561C98827800A6E331 /* Baseball_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD11D2551C98827800A6E331 /* Baseball_AppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD11D2471C98827800A6E331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD11D22A1C98827800A6E331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD11D2311C98827800A6E331;
+			remoteInfo = Baseball_App;
+		};
+		BD11D2521C98827800A6E331 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD11D22A1C98827800A6E331 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD11D2311C98827800A6E331;
+			remoteInfo = Baseball_App;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD11D2321C98827800A6E331 /* Baseball_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Baseball_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD11D2351C98827800A6E331 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BD11D2371C98827800A6E331 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD11D23A1C98827800A6E331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD11D23C1C98827800A6E331 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD11D23F1C98827800A6E331 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD11D2411C98827800A6E331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD11D2461C98827800A6E331 /* Baseball_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Baseball_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD11D24A1C98827800A6E331 /* Baseball_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baseball_AppTests.swift; sourceTree = "<group>"; };
+		BD11D24C1C98827800A6E331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD11D2511C98827800A6E331 /* Baseball_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Baseball_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD11D2551C98827800A6E331 /* Baseball_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baseball_AppUITests.swift; sourceTree = "<group>"; };
+		BD11D2571C98827900A6E331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD11D22F1C98827800A6E331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD11D2431C98827800A6E331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD11D24E1C98827800A6E331 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD11D2291C98827800A6E331 = {
+			isa = PBXGroup;
+			children = (
+				BD11D2341C98827800A6E331 /* Baseball_App */,
+				BD11D2491C98827800A6E331 /* Baseball_AppTests */,
+				BD11D2541C98827800A6E331 /* Baseball_AppUITests */,
+				BD11D2331C98827800A6E331 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD11D2331C98827800A6E331 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD11D2321C98827800A6E331 /* Baseball_App.app */,
+				BD11D2461C98827800A6E331 /* Baseball_AppTests.xctest */,
+				BD11D2511C98827800A6E331 /* Baseball_AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD11D2341C98827800A6E331 /* Baseball_App */ = {
+			isa = PBXGroup;
+			children = (
+				BD11D2351C98827800A6E331 /* AppDelegate.swift */,
+				BD11D2371C98827800A6E331 /* ViewController.swift */,
+				BD11D2391C98827800A6E331 /* Main.storyboard */,
+				BD11D23C1C98827800A6E331 /* Assets.xcassets */,
+				BD11D23E1C98827800A6E331 /* LaunchScreen.storyboard */,
+				BD11D2411C98827800A6E331 /* Info.plist */,
+			);
+			path = Baseball_App;
+			sourceTree = "<group>";
+		};
+		BD11D2491C98827800A6E331 /* Baseball_AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD11D24A1C98827800A6E331 /* Baseball_AppTests.swift */,
+				BD11D24C1C98827800A6E331 /* Info.plist */,
+			);
+			path = Baseball_AppTests;
+			sourceTree = "<group>";
+		};
+		BD11D2541C98827800A6E331 /* Baseball_AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD11D2551C98827800A6E331 /* Baseball_AppUITests.swift */,
+				BD11D2571C98827900A6E331 /* Info.plist */,
+			);
+			path = Baseball_AppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD11D2311C98827800A6E331 /* Baseball_App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD11D25A1C98827900A6E331 /* Build configuration list for PBXNativeTarget "Baseball_App" */;
+			buildPhases = (
+				BD11D22E1C98827800A6E331 /* Sources */,
+				BD11D22F1C98827800A6E331 /* Frameworks */,
+				BD11D2301C98827800A6E331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Baseball_App;
+			productName = Baseball_App;
+			productReference = BD11D2321C98827800A6E331 /* Baseball_App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD11D2451C98827800A6E331 /* Baseball_AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD11D25D1C98827900A6E331 /* Build configuration list for PBXNativeTarget "Baseball_AppTests" */;
+			buildPhases = (
+				BD11D2421C98827800A6E331 /* Sources */,
+				BD11D2431C98827800A6E331 /* Frameworks */,
+				BD11D2441C98827800A6E331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD11D2481C98827800A6E331 /* PBXTargetDependency */,
+			);
+			name = Baseball_AppTests;
+			productName = Baseball_AppTests;
+			productReference = BD11D2461C98827800A6E331 /* Baseball_AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD11D2501C98827800A6E331 /* Baseball_AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD11D2601C98827900A6E331 /* Build configuration list for PBXNativeTarget "Baseball_AppUITests" */;
+			buildPhases = (
+				BD11D24D1C98827800A6E331 /* Sources */,
+				BD11D24E1C98827800A6E331 /* Frameworks */,
+				BD11D24F1C98827800A6E331 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD11D2531C98827800A6E331 /* PBXTargetDependency */,
+			);
+			name = Baseball_AppUITests;
+			productName = Baseball_AppUITests;
+			productReference = BD11D2511C98827800A6E331 /* Baseball_AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD11D22A1C98827800A6E331 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = GalvanizeGroup;
+				TargetAttributes = {
+					BD11D2311C98827800A6E331 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					BD11D2451C98827800A6E331 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BD11D2311C98827800A6E331;
+					};
+					BD11D2501C98827800A6E331 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = BD11D2311C98827800A6E331;
+					};
+				};
+			};
+			buildConfigurationList = BD11D22D1C98827800A6E331 /* Build configuration list for PBXProject "Baseball_App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD11D2291C98827800A6E331;
+			productRefGroup = BD11D2331C98827800A6E331 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD11D2311C98827800A6E331 /* Baseball_App */,
+				BD11D2451C98827800A6E331 /* Baseball_AppTests */,
+				BD11D2501C98827800A6E331 /* Baseball_AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD11D2301C98827800A6E331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD11D2401C98827800A6E331 /* LaunchScreen.storyboard in Resources */,
+				BD11D23D1C98827800A6E331 /* Assets.xcassets in Resources */,
+				BD11D23B1C98827800A6E331 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD11D2441C98827800A6E331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD11D24F1C98827800A6E331 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD11D22E1C98827800A6E331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD11D2381C98827800A6E331 /* ViewController.swift in Sources */,
+				BD11D2361C98827800A6E331 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD11D2421C98827800A6E331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD11D24B1C98827800A6E331 /* Baseball_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD11D24D1C98827800A6E331 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD11D2561C98827800A6E331 /* Baseball_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD11D2481C98827800A6E331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD11D2311C98827800A6E331 /* Baseball_App */;
+			targetProxy = BD11D2471C98827800A6E331 /* PBXContainerItemProxy */;
+		};
+		BD11D2531C98827800A6E331 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD11D2311C98827800A6E331 /* Baseball_App */;
+			targetProxy = BD11D2521C98827800A6E331 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD11D2391C98827800A6E331 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD11D23A1C98827800A6E331 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD11D23E1C98827800A6E331 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD11D23F1C98827800A6E331 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD11D2581C98827900A6E331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD11D2591C98827900A6E331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD11D25B1C98827900A6E331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Baseball_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.practice.Baseball-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD11D25C1C98827900A6E331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Baseball_App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.practice.Baseball-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD11D25E1C98827900A6E331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Baseball_AppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.practice.Baseball-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baseball_App.app/Baseball_App";
+			};
+			name = Debug;
+		};
+		BD11D25F1C98827900A6E331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Baseball_AppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.practice.Baseball-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Baseball_App.app/Baseball_App";
+			};
+			name = Release;
+		};
+		BD11D2611C98827900A6E331 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Baseball_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.practice.Baseball-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Baseball_App;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		BD11D2621C98827900A6E331 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Baseball_AppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.practice.Baseball-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Baseball_App;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD11D22D1C98827800A6E331 /* Build configuration list for PBXProject "Baseball_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD11D2581C98827900A6E331 /* Debug */,
+				BD11D2591C98827900A6E331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD11D25A1C98827900A6E331 /* Build configuration list for PBXNativeTarget "Baseball_App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD11D25B1C98827900A6E331 /* Debug */,
+				BD11D25C1C98827900A6E331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD11D25D1C98827900A6E331 /* Build configuration list for PBXNativeTarget "Baseball_AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD11D25E1C98827900A6E331 /* Debug */,
+				BD11D25F1C98827900A6E331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD11D2601C98827900A6E331 /* Build configuration list for PBXNativeTarget "Baseball_AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD11D2611C98827900A6E331 /* Debug */,
+				BD11D2621C98827900A6E331 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD11D22A1C98827800A6E331 /* Project object */;
+}
