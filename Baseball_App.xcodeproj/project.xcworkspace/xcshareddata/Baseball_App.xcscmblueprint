@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "41A2A2EAD67A286A9A6BB903CD40358225E73923",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "41A2A2EAD67A286A9A6BB903CD40358225E73923" : 0,
+    "F1EF4CA449EF980D41440C264A1986DF27FBC153" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "6420B53D-0448-465E-9DCE-CFA6099D5863",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "41A2A2EAD67A286A9A6BB903CD40358225E73923" : "baseball_swift\/",
+    "F1EF4CA449EF980D41440C264A1986DF27FBC153" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Baseball_App",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Baseball_App.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:tsmit291\/baseball_swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "41A2A2EAD67A286A9A6BB903CD40358225E73923"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:BryceSublime-GSchool\/Q2.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F1EF4CA449EF980D41440C264A1986DF27FBC153"
+    }
+  ]
+}
