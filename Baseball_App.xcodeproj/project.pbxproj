@@ -14,6 +14,8 @@
 		BD11D2401C98827800A6E331 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD11D23E1C98827800A6E331 /* LaunchScreen.storyboard */; };
 		BD11D24B1C98827800A6E331 /* Baseball_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD11D24A1C98827800A6E331 /* Baseball_AppTests.swift */; };
 		BD11D2561C98827800A6E331 /* Baseball_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD11D2551C98827800A6E331 /* Baseball_AppUITests.swift */; };
+		E6BF99131C98D8F00099B7DC /* balls.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BF99121C98D8F00099B7DC /* balls.png */; };
+		E6BF99151C98DAF40099B7DC /* ballReal.png in Resources */ = {isa = PBXBuildFile; fileRef = E6BF99141C98DAF40099B7DC /* ballReal.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		BD11D2511C98827800A6E331 /* Baseball_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Baseball_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD11D2551C98827800A6E331 /* Baseball_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baseball_AppUITests.swift; sourceTree = "<group>"; };
 		BD11D2571C98827900A6E331 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6BF99121C98D8F00099B7DC /* balls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = balls.png; path = ../../Downloads/Icons/balls.png; sourceTree = "<group>"; };
+		E6BF99141C98DAF40099B7DC /* ballReal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ballReal.png; path = ../../Downloads/Icons/ballReal.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,8 @@
 				BD11D2491C98827800A6E331 /* Baseball_AppTests */,
 				BD11D2541C98827800A6E331 /* Baseball_AppUITests */,
 				BD11D2331C98827800A6E331 /* Products */,
+				E6BF99121C98D8F00099B7DC /* balls.png */,
+				E6BF99141C98DAF40099B7DC /* ballReal.png */,
 			);
 			sourceTree = "<group>";
 		};
@@ -231,7 +237,9 @@
 			files = (
 				BD11D2401C98827800A6E331 /* LaunchScreen.storyboard in Resources */,
 				BD11D23D1C98827800A6E331 /* Assets.xcassets in Resources */,
+				E6BF99131C98D8F00099B7DC /* balls.png in Resources */,
 				BD11D23B1C98827800A6E331 /* Main.storyboard in Resources */,
+				E6BF99151C98DAF40099B7DC /* ballReal.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +492,7 @@
 				BD11D25C1C98827900A6E331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD11D25D1C98827900A6E331 /* Build configuration list for PBXNativeTarget "Baseball_AppTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +501,7 @@
 				BD11D25F1C98827900A6E331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD11D2601C98827900A6E331 /* Build configuration list for PBXNativeTarget "Baseball_AppUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +510,7 @@
 				BD11D2621C98827900A6E331 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
